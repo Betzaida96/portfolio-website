@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 1%;
+    background-color: hotpink;
+    color: #fff;
+    font-family: sans-serif, serif, 'Times New Roman';
+}
+
+h1 {
+    font-size: 175%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+}
+
+nav a {
+    color: #fff;
+    font-weight: bolder;
+    font-style: 'Comic sans';
+    font-size: 100%;
+}
+
+nav a:hover{
+color: rgb(224, 89, 224);
+}
