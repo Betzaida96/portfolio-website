@@ -75,11 +75,9 @@ main {
     margin-right: auto;
 
 }
-
-p #p2 {
-    text-align: center;
-    display: inline;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+#p2 {
+text-align: center;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .container {
@@ -89,7 +87,7 @@ p #p2 {
 }
 
 .container >div> img {
-    width: 150px;
+    width: 100px;
     height: 100px;
     display: inline;    
 }
@@ -101,8 +99,8 @@ p #Contact {
 
 li {
     display: inline-block;
-    margin-right: 50px;
-    min-width: 250px;
+    margin-right: 40px;
+    min-width: 200px;
     list-style-type: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
